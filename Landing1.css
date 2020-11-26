@@ -1,0 +1,147 @@
+/*-----------TIPOGRAFIA PARA EL NAV
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+body{
+
+		background-image: url("Imagenes/Fondos/wllppBeach2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; 
+		padding-top: 20px;
+
+}
+a{
+	text-decoration: none;
+	color: #F3F3F3;
+}
+.container{
+	background-color: rgba(255,255,255,.7);
+	height: 100%;
+}
+.Header{
+	background-color: #047FD4;
+	font-family: font-family: 'Oxygen', sans-serif;
+	padding-top: 10px;
+	height: 50px;	
+}
+.Header > .Logo > h4{
+	color: #F2F2F2 ;
+}
+.Header > .col > a { 
+	display: flex;
+	padding-left: 25%; 
+}
+.Header > .col > a > * {
+
+	display: wrap;
+}
+.Header > .col > a > #imgHome{
+	width: 30px !important;
+	height: 30px;
+}
+.Header > .col > a > h6 {
+	padding-top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #020202;
+}
+.Header > .col > a:hover{
+	text-decoration: none;
+	transition: (.9s);
+	border-radius: 10px;
+	font-weight: 24px;
+}
+
+
+.Lista{
+	display: flex;
+
+	list-style: none;
+}
+.Lista > .ItemList {
+	display: inline;
+
+}
+ .Lista > .ItemList > a {
+	
+	font-size: .5rem;
+	color: #F2F2F2 ;
+}
+.Lista > * :hover{
+	text-decoration: none;
+	color: #F2F2F2;
+	font-weight: bold;
+}
+
+
+
+
+
+
+.Cuerpo > .row{
+	padding-top: 0;
+}
+
+.IlustracionPc{
+	top: -50px;
+	width: 600px !important; 
+	height: 300px !important;
+}
+h3,h4,h5 {
+	text-align: center;		
+	color: #4E8A81;
+}
+.Cuerpo > .row > .col-4{
+	
+}
+#ParrafoFinal{
+	margin-top: 49%;
+	color: #4E8A81;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+form > center > #btnContacto{
+	transition: (.9s);
+	background-color: #ECE0CF;
+	border-radius: 20px;
+	border: solid #D6AE60 3px;
+	color: #D6AE60;
+	font-size: 15pt;
+	font-weight: bold;
+}
+form > center > #btnContacto:hover{
+	transition: (.9s);
+	border-radius: 0;
+	border-top: 0px;
+	border-bottom: transparent 3px solid;
+	border-left: transparent 3px solid;
+	border-right: transparent 3px solid;
+	background-color: #EEE2D1;
+	font-size: 18pt;
+}
+form > col > #lblContacto{
+	font-size: 30pt !important;
+}
+label{
+	color: #D6AE60 !important;
+}
+input {
+	border: .5px solid #D6AE60 !important;	
+	color: #D6AE60 !important;
+	background-color: rgba(255,255,255,.2) !important;
+}
+textarea{
+
+	border: .5px solid #D6AE60 !important;	
+	color: #D6AE60 !important;
+	background-color: rgba(255,255,255,.2) !important;
+}
